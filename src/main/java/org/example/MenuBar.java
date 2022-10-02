@@ -31,7 +31,7 @@ public class MenuBar {
             chooser.setFileFilter(filter);
             int ret = chooser.showOpenDialog(null);
             if(ret != JFileChooser.APPROVE_OPTION){
-                JOptionPane.showMessageDialog(null, "Yon didn't choose file.",
+                JOptionPane.showMessageDialog(null, "파일을 선택하지 않았습니다.",
                         "Warning", JOptionPane.WARNING_MESSAGE);
                 return;
             }

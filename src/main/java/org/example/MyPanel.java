@@ -6,7 +6,6 @@ import java.awt.*;
 class MyPanel extends JPanel {
     private ImageIcon icon;
     private Image image;
-
     MyPanel(String path){
         icon = new ImageIcon(path);
         image = icon.getImage();

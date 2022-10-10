@@ -9,7 +9,9 @@ import java.awt.event.ActionListener;
 public class MenuBar {
     JMenuBar mb;
     Container c;
-    MenuBar(Container c) {
+    MyFrame mf;
+    MenuBar(Container c, MyFrame mf) {
+        this.mf = mf;
         this.c = c;
         mb = new JMenuBar();
         JMenu fileMenu = new JMenu("File");
@@ -40,6 +42,8 @@ public class MenuBar {
             c.add(panel);
             panel.setLocation(30,30);
             panel.setSize(500,500);
+
+            mf.labelremove();
         }
     }
 }

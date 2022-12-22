@@ -14,3 +14,6 @@ PNU_Landmark_Classification
 - 아래 링크를 통해서 Data, Test Set을 공유하겠다.
 
 https://drive.google.com/drive/folders/1i6vpfi4fV7aBSRAobc73bumsHFcGnt54?usp=sharing
+
+## LICENSE
+Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll/blob/master/LICENSE) license.
